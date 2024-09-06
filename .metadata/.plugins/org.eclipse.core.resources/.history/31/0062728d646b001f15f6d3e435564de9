@@ -1,0 +1,167 @@
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xil_exception.h"
+#include "xscugic.h"
+#include "xil_printf.h"
+
+// DMA and interrupt related defines
+#define DMA_DEVICE_ID   XPAR_AXIDMA_0_DEVICE_ID
+#define RX_INTR_ID      XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+#define RX_BUFFER_BASE  0x01000000  // Base address for the receive buffer
+#define BUFFER_SIZE     1024        // Size of buffer in bytes
+
+// Global variables
+volatile int RxDone = 0;
+volatile int Error = 0;
+
+XAxiDma AxiDma;
+XScuGic Intc;  // Interrupt controller instance
+
+// Function declarations
+int InitDMA();
+int SetupInterrupts();
+void RxIntrHandler(void *Callback);
+void ErrorHandler(void *Callback);
+
+int main() {
+    int Status;
+    u8 *RxBufferPtr = (u8 *)RX_BUFFER_BASE;
+
+    // Initialize the DMA
+    Status = InitDMA();
+    if (Status != XST_SUCCESS) {
+        xil_printf("DMA initialization failed!\r\n");
+        return XST_FAILURE;
+    }
+
+    // Setup interrupts
+    Status = SetupInterrupts();
+    if (Status != XST_SUCCESS) {
+        xil_printf("Interrupt setup failed!\r\n");
+        return XST_FAILURE;
+    }
+
+    // Prepare the RX buffer (clear it)
+    memset(RxBufferPtr, 0, BUFFER_SIZE);
+
+    // Start DMA reception (S2MM - Stream to Memory-Mapped)
+    Status = XAxiDma_SimpleTransfer(&AxiDma, (UINTPTR)RxBufferPtr, BUFFER_SIZE, XAXIDMA_DEVICE_TO_DMA);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Failed to initiate RX transfer\r\n");
+        return XST_FAILURE;
+    }
+
+    xil_printf("Waiting for data from PL via DMA...\r\n");
+
+    // Wait for interrupt
+    while (!RxDone && !Error) {
+        Status = XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA);
+        if (!Status) {
+            xil_printf("Data received successfully\n");
+            break;
+        }
+    }
+
+    if (RxDone) {
+        xil_printf("Data received successfully.\r\n");
+    } else if (Error) {
+        xil_printf("DMA transfer error!\r\n");
+    }
+
+    return XST_SUCCESS;
+}
+
+// Function to initialize DMA
+int InitDMA() {
+    XAxiDma_Config *Config;
+    int Status;
+
+    // Lookup DMA configuration
+    Config = XAxiDma_LookupConfig(DMA_DEVICE_ID);
+    if (!Config) {
+        xil_printf("No configuration found for DMA\r\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize DMA
+    Status = XAxiDma_CfgInitialize(&AxiDma, Config);
+    if (Status != XST_SUCCESS) {
+        xil_printf("DMA initialization failed %d\r\n", Status);
+        return XST_FAILURE;
+    }
+
+    // Ensure DMA is not in scatter-gather mode
+    if (XAxiDma_HasSg(&AxiDma)) {
+        xil_printf("DMA configured in SG mode!\r\n");
+        return XST_FAILURE;
+    }
+
+    // Disable all interrupts before setup
+    XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+
+    // Enable only the receive (S2MM) interrupt
+    XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
+
+    return XST_SUCCESS;
+}
+
+// Function to setup interrupts
+int SetupInterrupts() {
+    int Status;
+    XScuGic_Config *IntcConfig;
+
+    // Initialize the interrupt controller driver
+    IntcConfig = XScuGic_LookupConfig(XPAR_SCUGIC_0_DEVICE_ID);
+    if (IntcConfig == NULL) {
+        xil_printf("Failed to lookup interrupt controller config\r\n");
+        return XST_FAILURE;
+    }
+
+    Status = XScuGic_CfgInitialize(&Intc, IntcConfig, IntcConfig->CpuBaseAddress);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Interrupt controller initialization failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Register interrupt handler for DMA RX
+    XScuGic_Connect(&Intc, RX_INTR_ID, (Xil_InterruptHandler)RxIntrHandler, &AxiDma);
+
+    // Enable the interrupt for RX
+    XScuGic_Enable(&Intc, RX_INTR_ID);
+
+    // Initialize exception handling
+    Xil_ExceptionInit();
+    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler)XScuGic_InterruptHandler, &Intc);
+    Xil_ExceptionEnable();
+
+    return XST_SUCCESS;
+}
+
+// RX Interrupt Handler
+void RxIntrHandler(void *Callback) {
+    XAxiDma *AxiDmaInst = (XAxiDma *)Callback;
+    u32 IrqStatus;
+
+    // Get the status of the interrupt
+    IrqStatus = XAxiDma_IntrGetIrq(AxiDmaInst, XAXIDMA_DEVICE_TO_DMA);
+
+    // Acknowledge the interrupt
+    XAxiDma_IntrAckIrq(AxiDmaInst, IrqStatus, XAXIDMA_DEVICE_TO_DMA);
+
+    // Check for completion or errors
+    if (IrqStatus & XAXIDMA_IRQ_IOC_MASK) {
+        // Transfer is complete
+        RxDone = 1;
+    }
+
+    if (IrqStatus & XAXIDMA_IRQ_ERROR_MASK) {
+        // Error occurred
+        Error = 1;
+    }
+}
+
+// Error handler (optional)
+void ErrorHandler(void *Callback) {
+    xil_printf("DMA error occurred!\r\n");
+    Error = 1;
+}

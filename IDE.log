@@ -1,0 +1,1206 @@
+10:10:12 DEBUG : Logs will be stored at 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/IDE.log'.
+10:10:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\temp_xsdb_launch_script.tcl
+10:10:30 INFO  : Registering command handlers for Vitis TCF services
+10:10:31 INFO  : Platform repository initialization has completed.
+10:10:32 INFO  : XSCT server has started successfully.
+10:10:32 INFO  : plnx-install-location is set to ''
+10:10:32 INFO  : Successfully done setting XSCT server connection channel  
+10:10:32 INFO  : Successfully done setting workspace for the tool. 
+10:10:32 INFO  : Successfully done query RDI_DATADIR 
+10:12:45 INFO  : Result from executing command 'getProjects': DMA_testing
+10:12:45 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:12:47 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:12:51 INFO  : Platform 'DMA_testing' is added to custom repositories.
+10:13:14 INFO  : Platform 'DMA_testing' is added to custom repositories.
+10:19:30 INFO  : Result from executing command 'getProjects': DMA_testing
+10:19:30 INFO  : Result from executing command 'getPlatforms': DMA_testing|C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/DMA_testing.xpfm;xilinx_vck190_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:19:34 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+10:22:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:22:40 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+10:22:40 INFO  : 'jtag frequency' command is executed.
+10:22:40 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+10:22:41 INFO  : Context for 'APU' is selected.
+10:22:42 INFO  : System reset is completed.
+10:22:45 INFO  : 'after 3000' command is executed.
+10:22:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+10:22:50 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+10:22:50 INFO  : Context for 'APU' is selected.
+10:22:51 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+10:22:51 INFO  : 'configparams force-mem-access 1' command is executed.
+10:22:51 INFO  : Context for 'APU' is selected.
+10:22:51 INFO  : Boot mode is read from the target.
+10:22:51 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:22:51 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+10:22:52 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+10:22:52 INFO  : 'set bp_22_52_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+10:22:52 INFO  : 'con -block -timeout 60' command is executed.
+10:22:52 INFO  : 'bpremove $bp_22_52_fsbl_bp' command is executed.
+10:22:52 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:22:52 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+10:22:53 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+10:22:53 INFO  : 'configparams force-mem-access 0' command is executed.
+10:22:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_22_52_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_22_52_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:22:53 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:22:53 INFO  : 'con' command is executed.
+10:22:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+10:22:53 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+10:29:23 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+10:29:58 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+10:30:45 INFO  : Disconnected from the channel tcfchan#3.
+10:30:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:30:57 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+10:30:57 INFO  : 'jtag frequency' command is executed.
+10:30:57 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+10:30:57 INFO  : Context for 'APU' is selected.
+10:30:57 INFO  : System reset is completed.
+10:31:00 INFO  : 'after 3000' command is executed.
+10:31:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+10:31:05 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+10:31:05 INFO  : Context for 'APU' is selected.
+10:31:05 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+10:31:05 INFO  : 'configparams force-mem-access 1' command is executed.
+10:31:05 INFO  : Context for 'APU' is selected.
+10:31:05 INFO  : Boot mode is read from the target.
+10:31:06 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:31:06 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+10:31:07 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+10:31:07 INFO  : 'set bp_31_7_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+10:31:07 INFO  : 'con -block -timeout 60' command is executed.
+10:31:07 INFO  : 'bpremove $bp_31_7_fsbl_bp' command is executed.
+10:31:07 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:31:07 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+10:31:07 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+10:31:07 INFO  : 'configparams force-mem-access 0' command is executed.
+10:31:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_31_7_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_31_7_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:31:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:31:08 INFO  : 'con' command is executed.
+10:31:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+10:31:08 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+10:38:50 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+10:39:59 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:35:17 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:36:55 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:37:32 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:38:36 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:38:57 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:40:41 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:41:04 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:41:38 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:43:04 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:43:39 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:46:50 INFO  : Disconnected from the channel tcfchan#4.
+12:46:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:46:51 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+12:46:51 INFO  : 'jtag frequency' command is executed.
+12:46:51 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+12:46:51 INFO  : Context for 'APU' is selected.
+12:46:52 INFO  : System reset is completed.
+12:46:55 INFO  : 'after 3000' command is executed.
+12:46:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+12:47:00 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+12:47:00 INFO  : Context for 'APU' is selected.
+12:47:00 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+12:47:00 INFO  : 'configparams force-mem-access 1' command is executed.
+12:47:00 INFO  : Context for 'APU' is selected.
+12:47:00 INFO  : Boot mode is read from the target.
+12:47:00 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:47:00 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:47:01 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:47:01 INFO  : 'set bp_47_1_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+12:47:01 INFO  : 'con -block -timeout 60' command is executed.
+12:47:01 INFO  : 'bpremove $bp_47_1_fsbl_bp' command is executed.
+12:47:01 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:47:02 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:47:02 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:47:02 INFO  : 'configparams force-mem-access 0' command is executed.
+12:47:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_47_1_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_47_1_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:47:02 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:47:02 INFO  : 'con' command is executed.
+12:47:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+12:47:02 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+12:54:04 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:54:16 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:54:24 INFO  : Disconnected from the channel tcfchan#5.
+12:54:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:54:33 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:54:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:39 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+12:54:39 INFO  : 'jtag frequency' command is executed.
+12:54:39 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+12:54:39 INFO  : Context for 'APU' is selected.
+12:54:39 INFO  : System reset is completed.
+12:54:42 INFO  : 'after 3000' command is executed.
+12:54:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+12:54:47 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+12:54:47 INFO  : Context for 'APU' is selected.
+12:54:47 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+12:54:47 INFO  : 'configparams force-mem-access 1' command is executed.
+12:54:47 INFO  : Context for 'APU' is selected.
+12:54:47 INFO  : Boot mode is read from the target.
+12:54:47 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:54:48 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:54:49 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:54:49 INFO  : 'set bp_54_49_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+12:54:49 INFO  : 'con -block -timeout 60' command is executed.
+12:54:49 INFO  : 'bpremove $bp_54_49_fsbl_bp' command is executed.
+12:54:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:54:49 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:54:50 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:54:50 INFO  : 'configparams force-mem-access 0' command is executed.
+12:54:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_54_49_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_54_49_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:54:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:54:50 INFO  : 'con' command is executed.
+12:54:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+12:54:50 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+12:56:47 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+12:56:53 INFO  : Disconnected from the channel tcfchan#6.
+12:56:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:54 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+12:56:54 INFO  : 'jtag frequency' command is executed.
+12:56:54 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+12:56:54 INFO  : Context for 'APU' is selected.
+12:56:54 INFO  : System reset is completed.
+12:56:57 INFO  : 'after 3000' command is executed.
+12:56:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+12:57:02 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+12:57:02 INFO  : Context for 'APU' is selected.
+12:57:02 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+12:57:02 INFO  : 'configparams force-mem-access 1' command is executed.
+12:57:02 INFO  : Context for 'APU' is selected.
+12:57:02 INFO  : Boot mode is read from the target.
+12:57:02 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:57:02 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:57:03 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:57:03 INFO  : 'set bp_57_3_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+12:57:04 INFO  : 'con -block -timeout 60' command is executed.
+12:57:04 INFO  : 'bpremove $bp_57_3_fsbl_bp' command is executed.
+12:57:05 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:57:05 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:57:05 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:57:05 INFO  : 'configparams force-mem-access 0' command is executed.
+12:57:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_57_3_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_57_3_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:57:06 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:57:06 INFO  : 'con' command is executed.
+12:57:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+12:57:06 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+13:02:52 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+13:03:29 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+13:03:46 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+13:04:02 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+13:04:35 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+13:04:41 INFO  : Disconnected from the channel tcfchan#7.
+13:04:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:04:42 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+13:04:42 INFO  : 'jtag frequency' command is executed.
+13:04:42 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+13:04:42 INFO  : Context for 'APU' is selected.
+13:04:42 INFO  : System reset is completed.
+13:04:45 INFO  : 'after 3000' command is executed.
+13:04:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+13:04:50 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+13:04:50 INFO  : Context for 'APU' is selected.
+13:04:50 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+13:04:50 INFO  : 'configparams force-mem-access 1' command is executed.
+13:04:51 INFO  : Context for 'APU' is selected.
+13:04:51 INFO  : Boot mode is read from the target.
+13:04:51 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+13:04:51 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+13:04:52 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+13:04:52 INFO  : 'set bp_4_52_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+13:04:52 INFO  : 'con -block -timeout 60' command is executed.
+13:04:52 INFO  : 'bpremove $bp_4_52_fsbl_bp' command is executed.
+13:04:52 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+13:04:52 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+13:04:53 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+13:04:53 INFO  : 'configparams force-mem-access 0' command is executed.
+13:04:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_4_52_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_4_52_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:04:53 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+13:04:53 INFO  : 'con' command is executed.
+13:04:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+13:04:53 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:01:28 INFO  : Disconnected from the channel tcfchan#8.
+14:01:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:01:29 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:01:29 INFO  : 'jtag frequency' command is executed.
+14:01:29 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:01:29 INFO  : Context for 'APU' is selected.
+14:01:30 INFO  : System reset is completed.
+14:01:33 INFO  : 'after 3000' command is executed.
+14:01:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:01:38 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:01:38 INFO  : Context for 'APU' is selected.
+14:01:38 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:01:38 INFO  : 'configparams force-mem-access 1' command is executed.
+14:01:38 INFO  : Context for 'APU' is selected.
+14:01:38 INFO  : Boot mode is read from the target.
+14:01:38 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:01:38 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:01:39 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:01:39 INFO  : 'set bp_1_39_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:01:39 INFO  : 'con -block -timeout 60' command is executed.
+14:01:39 INFO  : 'bpremove $bp_1_39_fsbl_bp' command is executed.
+14:01:39 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:01:39 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:01:40 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:01:40 INFO  : 'configparams force-mem-access 0' command is executed.
+14:01:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_1_39_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_1_39_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:01:40 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:01:40 INFO  : 'con' command is executed.
+14:01:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:01:40 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:01:50 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:02:06 INFO  : Disconnected from the channel tcfchan#9.
+14:02:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:02:07 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:02:07 INFO  : 'jtag frequency' command is executed.
+14:02:07 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:02:07 INFO  : Context for 'APU' is selected.
+14:02:07 INFO  : System reset is completed.
+14:02:10 INFO  : 'after 3000' command is executed.
+14:02:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:02:15 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:02:15 INFO  : Context for 'APU' is selected.
+14:02:15 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:02:15 INFO  : 'configparams force-mem-access 1' command is executed.
+14:02:15 INFO  : Context for 'APU' is selected.
+14:02:15 INFO  : Boot mode is read from the target.
+14:02:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:02:15 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:02:16 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:02:16 INFO  : 'set bp_2_16_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:02:17 INFO  : 'con -block -timeout 60' command is executed.
+14:02:17 INFO  : 'bpremove $bp_2_16_fsbl_bp' command is executed.
+14:02:17 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:02:17 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:02:18 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:02:18 INFO  : 'configparams force-mem-access 0' command is executed.
+14:02:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_2_16_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_2_16_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:02:18 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:02:18 INFO  : 'con' command is executed.
+14:02:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:02:18 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:06:55 INFO  : Disconnected from the channel tcfchan#10.
+14:06:57 ERROR : (XRT Server)E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+14:07:56 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+14:07:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:59 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:07:59 INFO  : 'jtag frequency' command is executed.
+14:07:59 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:07:59 INFO  : Context for 'APU' is selected.
+14:08:00 INFO  : System reset is completed.
+14:08:03 INFO  : 'after 3000' command is executed.
+14:08:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:08:08 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:08:08 INFO  : Context for 'APU' is selected.
+14:08:08 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:08:08 INFO  : 'configparams force-mem-access 1' command is executed.
+14:08:08 INFO  : Context for 'APU' is selected.
+14:08:08 INFO  : Boot mode is read from the target.
+14:08:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:08:08 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:08:09 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:08:09 INFO  : 'set bp_8_9_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:08:10 INFO  : 'con -block -timeout 60' command is executed.
+14:08:10 INFO  : 'bpremove $bp_8_9_fsbl_bp' command is executed.
+14:08:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:08:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:08:10 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:08:10 INFO  : 'configparams force-mem-access 0' command is executed.
+14:08:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_8_9_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_8_9_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:08:11 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:08:11 INFO  : 'con' command is executed.
+14:08:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:08:11 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:16:52 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:17:09 INFO  : Disconnected from the channel tcfchan#11.
+14:17:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:17:10 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:17:10 INFO  : 'jtag frequency' command is executed.
+14:17:10 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:17:10 INFO  : Context for 'APU' is selected.
+14:17:10 INFO  : System reset is completed.
+14:17:13 INFO  : 'after 3000' command is executed.
+14:17:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:17:18 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:17:18 INFO  : Context for 'APU' is selected.
+14:17:18 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:17:18 INFO  : 'configparams force-mem-access 1' command is executed.
+14:17:19 INFO  : Context for 'APU' is selected.
+14:17:19 INFO  : Boot mode is read from the target.
+14:17:19 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:17:19 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:17:20 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:17:20 INFO  : 'set bp_17_20_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:17:20 INFO  : 'con -block -timeout 60' command is executed.
+14:17:20 INFO  : 'bpremove $bp_17_20_fsbl_bp' command is executed.
+14:17:20 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:17:20 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:17:21 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:17:21 INFO  : 'configparams force-mem-access 0' command is executed.
+14:17:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_17_20_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_17_20_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:17:21 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:17:21 INFO  : 'con' command is executed.
+14:17:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:17:21 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:28:11 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:29:14 INFO  : Disconnected from the channel tcfchan#12.
+14:29:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:14 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:29:14 INFO  : 'jtag frequency' command is executed.
+14:29:15 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:29:15 INFO  : Context for 'APU' is selected.
+14:29:15 INFO  : System reset is completed.
+14:29:18 INFO  : 'after 3000' command is executed.
+14:29:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:29:23 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:29:23 INFO  : Context for 'APU' is selected.
+14:29:23 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:29:23 INFO  : 'configparams force-mem-access 1' command is executed.
+14:29:23 INFO  : Context for 'APU' is selected.
+14:29:23 INFO  : Boot mode is read from the target.
+14:29:23 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:29:23 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:29:24 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:29:24 INFO  : 'set bp_29_24_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:29:24 INFO  : 'con -block -timeout 60' command is executed.
+14:29:24 INFO  : 'bpremove $bp_29_24_fsbl_bp' command is executed.
+14:29:24 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:29:24 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:29:25 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:29:25 INFO  : 'configparams force-mem-access 0' command is executed.
+14:29:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_29_24_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_29_24_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:29:25 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:29:26 INFO  : 'con' command is executed.
+14:29:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:29:26 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:30:10 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:30:19 INFO  : Disconnected from the channel tcfchan#13.
+14:30:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:20 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:30:20 INFO  : 'jtag frequency' command is executed.
+14:30:20 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:30:20 INFO  : Context for 'APU' is selected.
+14:30:20 INFO  : System reset is completed.
+14:30:23 INFO  : 'after 3000' command is executed.
+14:30:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:30:28 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:30:28 INFO  : Context for 'APU' is selected.
+14:30:28 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:30:28 INFO  : 'configparams force-mem-access 1' command is executed.
+14:30:28 INFO  : Context for 'APU' is selected.
+14:30:28 INFO  : Boot mode is read from the target.
+14:30:28 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:30:28 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:30:30 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:30:30 INFO  : 'set bp_30_30_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:30:30 INFO  : 'con -block -timeout 60' command is executed.
+14:30:30 INFO  : 'bpremove $bp_30_30_fsbl_bp' command is executed.
+14:30:30 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:30:30 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:30:31 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:30:31 INFO  : 'configparams force-mem-access 0' command is executed.
+14:30:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_30_30_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_30_30_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:30:31 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:30:31 INFO  : 'con' command is executed.
+14:30:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:30:31 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:31:27 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:31:36 INFO  : Disconnected from the channel tcfchan#14.
+14:31:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:37 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:31:37 INFO  : 'jtag frequency' command is executed.
+14:31:37 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:31:37 INFO  : Context for 'APU' is selected.
+14:31:38 INFO  : System reset is completed.
+14:31:41 INFO  : 'after 3000' command is executed.
+14:31:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:31:46 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:31:46 INFO  : Context for 'APU' is selected.
+14:31:46 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:31:46 INFO  : 'configparams force-mem-access 1' command is executed.
+14:31:46 INFO  : Context for 'APU' is selected.
+14:31:46 INFO  : Boot mode is read from the target.
+14:31:46 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:31:46 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:31:47 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:31:47 INFO  : 'set bp_31_47_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:31:47 INFO  : 'con -block -timeout 60' command is executed.
+14:31:47 INFO  : 'bpremove $bp_31_47_fsbl_bp' command is executed.
+14:31:47 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:31:47 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:31:48 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:31:48 INFO  : 'configparams force-mem-access 0' command is executed.
+14:31:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_31_47_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_31_47_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:31:48 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:31:48 INFO  : 'con' command is executed.
+14:31:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:31:48 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:33:33 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:33:39 INFO  : Disconnected from the channel tcfchan#15.
+14:33:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:40 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:33:40 INFO  : 'jtag frequency' command is executed.
+14:33:40 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:33:40 INFO  : Context for 'APU' is selected.
+14:33:40 INFO  : System reset is completed.
+14:33:43 INFO  : 'after 3000' command is executed.
+14:33:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:33:48 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:33:48 INFO  : Context for 'APU' is selected.
+14:33:49 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:33:49 INFO  : 'configparams force-mem-access 1' command is executed.
+14:33:49 INFO  : Context for 'APU' is selected.
+14:33:49 INFO  : Boot mode is read from the target.
+14:33:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:33:49 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:33:50 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:33:50 INFO  : 'set bp_33_50_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:33:50 INFO  : 'con -block -timeout 60' command is executed.
+14:33:50 INFO  : 'bpremove $bp_33_50_fsbl_bp' command is executed.
+14:33:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:33:50 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:33:51 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:33:51 INFO  : 'configparams force-mem-access 0' command is executed.
+14:33:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_33_50_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_33_50_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:33:51 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:33:51 INFO  : 'con' command is executed.
+14:33:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:33:51 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:35:28 INFO  : Disconnected from the channel tcfchan#16.
+14:35:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:35:29 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:35:29 INFO  : 'jtag frequency' command is executed.
+14:35:29 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:35:29 INFO  : Context for 'APU' is selected.
+14:35:30 INFO  : System reset is completed.
+14:35:33 INFO  : 'after 3000' command is executed.
+14:35:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:35:38 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:35:38 INFO  : Context for 'APU' is selected.
+14:35:38 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:35:38 INFO  : 'configparams force-mem-access 1' command is executed.
+14:35:38 INFO  : Context for 'APU' is selected.
+14:35:38 INFO  : Boot mode is read from the target.
+14:35:38 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:35:38 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:35:39 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:35:39 INFO  : 'set bp_35_39_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:35:39 INFO  : 'con -block -timeout 60' command is executed.
+14:35:39 INFO  : 'bpremove $bp_35_39_fsbl_bp' command is executed.
+14:35:39 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:35:39 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:35:40 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:35:40 INFO  : 'configparams force-mem-access 0' command is executed.
+14:35:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_35_39_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_35_39_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:35:40 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:35:40 INFO  : 'con' command is executed.
+14:35:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:35:40 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:36:55 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:37:02 INFO  : Disconnected from the channel tcfchan#17.
+14:37:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:03 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:37:03 INFO  : 'jtag frequency' command is executed.
+14:37:03 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:37:03 INFO  : Context for 'APU' is selected.
+14:37:03 INFO  : System reset is completed.
+14:37:06 INFO  : 'after 3000' command is executed.
+14:37:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:37:11 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:37:11 INFO  : Context for 'APU' is selected.
+14:37:11 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:37:11 INFO  : 'configparams force-mem-access 1' command is executed.
+14:37:11 INFO  : Context for 'APU' is selected.
+14:37:11 INFO  : Boot mode is read from the target.
+14:37:11 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:37:12 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:37:12 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:37:13 INFO  : 'set bp_37_12_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:37:13 INFO  : 'con -block -timeout 60' command is executed.
+14:37:13 INFO  : 'bpremove $bp_37_12_fsbl_bp' command is executed.
+14:37:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:37:13 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:37:14 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:37:14 INFO  : 'configparams force-mem-access 0' command is executed.
+14:37:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_37_12_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_37_12_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:37:14 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:37:14 INFO  : 'con' command is executed.
+14:37:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:37:14 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:40:15 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:40:28 INFO  : Disconnected from the channel tcfchan#18.
+14:40:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:40:28 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:40:28 INFO  : 'jtag frequency' command is executed.
+14:40:28 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:40:28 INFO  : Context for 'APU' is selected.
+14:40:29 INFO  : System reset is completed.
+14:40:32 INFO  : 'after 3000' command is executed.
+14:40:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:40:37 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:40:37 INFO  : Context for 'APU' is selected.
+14:40:37 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:40:37 INFO  : 'configparams force-mem-access 1' command is executed.
+14:40:37 INFO  : Context for 'APU' is selected.
+14:40:37 INFO  : Boot mode is read from the target.
+14:40:37 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:40:37 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:40:38 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:40:38 INFO  : 'set bp_40_38_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:40:39 INFO  : 'con -block -timeout 60' command is executed.
+14:40:39 INFO  : 'bpremove $bp_40_38_fsbl_bp' command is executed.
+14:40:39 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:40:39 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:40:40 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:40:40 INFO  : 'configparams force-mem-access 0' command is executed.
+14:40:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_40_38_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_40_38_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:40:40 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:40:40 INFO  : 'con' command is executed.
+14:40:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:40:40 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+14:48:31 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:56:40 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+14:56:59 INFO  : Disconnected from the channel tcfchan#19.
+14:56:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:57:00 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+14:57:00 INFO  : 'jtag frequency' command is executed.
+14:57:00 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:57:00 INFO  : Context for 'APU' is selected.
+14:57:01 INFO  : System reset is completed.
+14:57:04 INFO  : 'after 3000' command is executed.
+14:57:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+14:57:09 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+14:57:09 INFO  : Context for 'APU' is selected.
+14:57:09 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+14:57:09 INFO  : 'configparams force-mem-access 1' command is executed.
+14:57:09 INFO  : Context for 'APU' is selected.
+14:57:09 INFO  : Boot mode is read from the target.
+14:57:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:57:09 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:57:10 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:57:10 INFO  : 'set bp_57_10_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:57:10 INFO  : 'con -block -timeout 60' command is executed.
+14:57:10 INFO  : 'bpremove $bp_57_10_fsbl_bp' command is executed.
+14:57:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:57:11 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:57:11 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:57:11 INFO  : 'configparams force-mem-access 0' command is executed.
+14:57:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_57_10_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_57_10_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:57:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:57:12 INFO  : 'con' command is executed.
+14:57:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:57:12 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+15:00:13 INFO  : Checking for BSP changes to sync application flags for project 'Interrupt_DMA_PSPL'...
+15:00:22 INFO  : Disconnected from the channel tcfchan#20.
+15:00:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:00:23 INFO  : Jtag cable 'Digilent JTAG-HS3 210299ABB7ED' is selected.
+15:00:23 INFO  : 'jtag frequency' command is executed.
+15:00:23 INFO  : Sourcing of 'E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:00:23 INFO  : Context for 'APU' is selected.
+15:00:24 INFO  : System reset is completed.
+15:00:27 INFO  : 'after 3000' command is executed.
+15:00:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}' command is executed.
+15:00:32 INFO  : Device configured successfully with "C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit"
+15:00:32 INFO  : Context for 'APU' is selected.
+15:00:32 INFO  : Hardware design and registers information is loaded from 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa'.
+15:00:32 INFO  : 'configparams force-mem-access 1' command is executed.
+15:00:32 INFO  : Context for 'APU' is selected.
+15:00:32 INFO  : Boot mode is read from the target.
+15:00:32 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:00:32 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:00:33 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:00:33 INFO  : 'set bp_0_33_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:00:33 INFO  : 'con -block -timeout 60' command is executed.
+15:00:33 INFO  : 'bpremove $bp_0_33_fsbl_bp' command is executed.
+15:00:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:00:33 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:00:34 INFO  : The application 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:00:34 INFO  : 'configparams force-mem-access 0' command is executed.
+15:00:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299ABB7ED" && level==0 && jtag_device_ctx=="jsn-JTAG-HS3-210299ABB7ED-04720093-0"}
+fpga -file C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/hw/DMA_testing.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/boot/fsbl.elf
+set bp_0_33_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_0_33_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:00:34 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:00:34 INFO  : 'con' command is executed.
+15:00:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:00:34 INFO  : Launch script is exported to file 'C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\Interrupt_DMA_PSPL_system\_ide\scripts\systemdebugger_interrupt_dma_pspl_system_standalone.tcl'
+18:32:57 INFO  : Disconnected from the channel tcfchan#21.
+09:51:30 DEBUG : Logs will be stored at 'C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/IDE.log'.
+09:51:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\projects\2189\Adc_DVGA_config\lpbck_intr_wrkspce\temp_xsdb_launch_script.tcl
+09:51:35 INFO  : XSCT server has started successfully.
+09:51:35 INFO  : plnx-install-location is set to ''
+09:51:35 INFO  : Successfully done setting XSCT server connection channel  
+09:51:35 INFO  : Successfully done setting workspace for the tool. 
+09:51:35 INFO  : Registering command handlers for Vitis TCF services
+09:51:36 INFO  : Platform repository initialization has completed.
+09:51:38 INFO  : Successfully done query RDI_DATADIR 

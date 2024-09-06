@@ -1,0 +1,10 @@
+10:19:48 **** Build of configuration Debug for project Interrupt_DMA_PSPL_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 60122 C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/DMA_testing.xpfm standalone_psu_cortexa53_0 C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL_system/Debug/system.bif
+sdcard_gen --xpfm C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/DMA_testing.xpfm --sys_config DMA_testing --bif C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL_system/Debug/system.bif --bitstream C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit --elf C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/Debug/Interrupt_DMA_PSPL.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL/_ide/bitstream/DMA_testing.bit
+Running E:/Softwares/Xilinx_2022_2_sys_Files/Vitis/2022.2/bin/bootgen -arch zynqmp -image C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+10:20:12 Build Finished (took 23s.834ms)
+

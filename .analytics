@@ -1,0 +1,44 @@
+timestamp=[2024-09-05 10:10:14], mode=WORKBENCH_START, duration=0:00:06.179, duration_ms=6179, data={}
+timestamp=[2024-09-05 10:10:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.330, duration_ms=330, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-09-05 10:10:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.202, duration_ms=1202, data={}
+timestamp=[2024-09-05 10:13:13], mode=APP_CREATION, duration=0:01:10.398, duration_ms=70398, data={name=Interrupt_DMA_PSPL, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=DMA_testing, application_type=application}
+timestamp=[2024-09-05 10:19:34], mode=PLATFORM_GENERATION, duration=0:05:28.608, duration_ms=328608, data={name=DMA_testing}
+timestamp=[2024-09-05 10:19:46], mode=BUILD, duration=0:00:12.127, duration_ms=12127, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 10:20:12], mode=BUILD, duration=0:00:23.940, duration_ms=23940, data={name=Interrupt_DMA_PSPL_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 10:29:23], mode=BUILD, duration=0:00:00.993, duration_ms=993, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=true}
+timestamp=[2024-09-05 10:29:30], mode=BUILD, duration=0:00:06.264, duration_ms=6264, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 10:30:03], mode=BUILD, duration=0:00:04.174, duration_ms=4174, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 10:38:58], mode=BUILD, duration=0:00:07.629, duration_ms=7629, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 10:40:11], mode=BUILD, duration=0:00:12.264, duration_ms=12264, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:35:19], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:36:56], mode=BUILD, duration=0:00:00.899, duration_ms=899, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:37:34], mode=BUILD, duration=0:00:01.630, duration_ms=1630, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:38:37], mode=BUILD, duration=0:00:00.900, duration_ms=900, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:38:58], mode=BUILD, duration=0:00:00.980, duration_ms=980, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:40:45], mode=BUILD, duration=0:00:03.121, duration_ms=3121, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:41:06], mode=BUILD, duration=0:00:02.193, duration_ms=2193, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:41:40], mode=BUILD, duration=0:00:02.208, duration_ms=2208, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:43:06], mode=BUILD, duration=0:00:02.162, duration_ms=2162, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:43:42], mode=BUILD, duration=0:00:02.713, duration_ms=2713, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:54:06], mode=BUILD, duration=0:00:01.623, duration_ms=1623, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:54:22], mode=BUILD, duration=0:00:05.471, duration_ms=5471, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 12:56:51], mode=BUILD, duration=0:00:03.678, duration_ms=3678, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 13:02:54], mode=BUILD, duration=0:00:01.280, duration_ms=1280, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 13:03:31], mode=BUILD, duration=0:00:01.249, duration_ms=1249, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 13:03:48], mode=BUILD, duration=0:00:01.267, duration_ms=1267, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 13:04:05], mode=BUILD, duration=0:00:03.686, duration_ms=3686, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 13:04:39], mode=BUILD, duration=0:00:03.952, duration_ms=3952, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:01:55], mode=BUILD, duration=0:00:05.184, duration_ms=5184, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:16:55], mode=BUILD, duration=0:00:03.718, duration_ms=3718, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:28:14], mode=BUILD, duration=0:00:03.443, duration_ms=3443, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:30:16], mode=BUILD, duration=0:00:05.368, duration_ms=5368, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:31:32], mode=BUILD, duration=0:00:04.667, duration_ms=4667, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:33:37], mode=BUILD, duration=0:00:03.806, duration_ms=3806, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:36:59], mode=BUILD, duration=0:00:04.307, duration_ms=4307, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:40:21], mode=BUILD, duration=0:00:05.290, duration_ms=5290, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:48:37], mode=BUILD, duration=0:00:05.885, duration_ms=5885, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 14:56:46], mode=BUILD, duration=0:00:05.655, duration_ms=5655, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-05 15:00:18], mode=BUILD, duration=0:00:05.412, duration_ms=5412, data={name=Interrupt_DMA_PSPL, configuration=Debug, clean_build=false}
+timestamp=[2024-09-06 09:51:33], mode=WORKBENCH_START, duration=0:00:08.544, duration_ms=8544, data={}
+timestamp=[2024-09-06 09:51:34], mode=WORKBENCH_UI_INIT, duration=0:00:01.257, duration_ms=1257, data={editors_count=8, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=DMA_testing,Interrupt_DMA_PSPL,Interrupt_DMA_PSPL_system,RemoteSystemsTempFiles}
+timestamp=[2024-09-06 09:51:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.115, duration_ms=1115, data={}

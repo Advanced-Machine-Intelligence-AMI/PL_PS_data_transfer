@@ -1,0 +1,20 @@
+Nothing to build in platform 'DMA_testing'
+
+15:00:13 **** Incremental Build of configuration Debug for project Interrupt_DMA_PSPL ****
+make all 
+'Building file: ../src/rx_intr_pl_ps.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_intr_pl_ps.o" -IC:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/rx_intr_pl_ps.d" -MT"src/rx_intr_pl_ps.o" -o "src/rx_intr_pl_ps.o" "../src/rx_intr_pl_ps.c"
+'Finished building: ../src/rx_intr_pl_ps.c'
+' '
+'Building target: Interrupt_DMA_PSPL.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/sw/DMA_testing/standalone_psu_cortexa53_0/bsplib/lib -o "Interrupt_DMA_PSPL.elf"  ./src/interrupt_PL_PS.o ./src/lpbck_PL_PS.o ./src/platform.o ./src/rx_intr_pl_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt_DMA_PSPL.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Interrupt_DMA_PSPL.elf  |tee "Interrupt_DMA_PSPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55720	   7432	  23756	  86908	  1537c	Interrupt_DMA_PSPL.elf
+'Finished building: Interrupt_DMA_PSPL.elf.size'
+' '

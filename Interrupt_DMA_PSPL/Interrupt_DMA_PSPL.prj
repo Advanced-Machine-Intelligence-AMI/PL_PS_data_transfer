@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Interrupt_DMA_PSPL" location="C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/Interrupt_DMA_PSPL" platform="C:/projects/2189/Adc_DVGA_config/lpbck_intr_wrkspce/DMA_testing/export/DMA_testing/DMA_testing.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="Interrupt_DMA_PSPL_system" sysConfig="DMA_testing" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="0f5a34c3c57b8ee884440e0a5bc2a3d4">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1318349038">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.238931468" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
